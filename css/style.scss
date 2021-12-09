@@ -87,8 +87,9 @@ h1, h2, h3, h4, h5, h6 {
                 position: relative;
                 z-index: 3;
                 &-sub {
-                    font-size: 1.25em;
-                    margin-top: 15px;
+                    font-size: 1.2em;
+                    margin-bottom: 10px;
+                    color: #555;
                 }
             }
             & .bottom_text {
@@ -368,7 +369,7 @@ h1, h2, h3, h4, h5, h6 {
             width: 49%;
             width: 375px;
             margin-bottom: unset;
-            height: 480px !important;
+            // height: 480px !important;
             &-left {
                 margin-right: 1%;
             }
