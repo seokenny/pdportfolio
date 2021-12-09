@@ -167,6 +167,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 70px;
 }
 
+#container.about_contain .work_box-text-sub {
+  color: unset;
+  margin-bottom: 25px;
+}
+
 #container.casestudy .hero_text-sub {
   margin-top: -5px;
   margin-bottom: unset;

@@ -146,6 +146,10 @@ h1, h2, h3, h4, h5, h6 {
             // margin: auto;
         }
     }
+    & .work_box-text-sub {
+        color: unset;
+        margin-bottom: 25px;
+    }
 }
 
 #container.casestudy {
