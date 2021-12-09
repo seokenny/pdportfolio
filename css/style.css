@@ -107,9 +107,14 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 3;
 }
 
+#container .work_box-text-header {
+  font-family: "Pragati Narrow";
+  font-size: 2em;
+}
+
 #container .work_box-text-sub {
   font-size: 1.2em;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   color: #555;
 }
 
@@ -410,7 +415,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
   }
   .work_img {
-    margin-top: 40px;
+    margin-top: 30px;
   }
 }
 
