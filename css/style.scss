@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #f4f4f4;
+    // background-color: #f4f4f4;
 }
 
 * {
@@ -364,6 +364,15 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+@media only screen and (min-width: 795px) {
+    #container.casestudy {
+        & .content {
+            width: 700px;
+            margin: auto;
+        }
+    }
+}
+
 @media only screen and (min-width: 910px) {
     #container {
         & .work {
@@ -392,12 +401,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media only screen and (min-width: 1010px) {
-    #container.casestudy {
-        & .content {
-            width: 893px;
-            margin: auto;
-        }
-    }
+    // #container.casestudy {
+    //     & .content {
+    //         width: 893px;
+    //         margin: auto;
+    //     }
+    // }
 
     .work_img {
         margin-top: 30px;
