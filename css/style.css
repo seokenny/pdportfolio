@@ -323,6 +323,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .case_hero {
   width: 90%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .link {
@@ -370,8 +372,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 636.5px;
   }
   .case_hero {
-    width: 603px;
     margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
 
@@ -386,6 +389,9 @@ h1, h2, h3, h4, h5, h6 {
   #container.casestudy .content {
     width: 700px;
     margin: auto;
+  }
+  .case_hero {
+    width: 700px;
   }
 }
 
