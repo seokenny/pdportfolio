@@ -330,6 +330,17 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+@media only screen and (min-width: 510px) {
+    #container.casestudy {
+        & .hero_text-quote {
+            width: 468px;
+            margin: auto;
+            margin-top: 40px;
+            margin-bottom: 75px;
+        }
+    }
+}
+
 @media only screen and (min-width: 532px) {
     #container {
         & .contact_text-sub {

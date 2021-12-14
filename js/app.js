@@ -7,6 +7,10 @@
 //     c.classList.toggle("slide_mnav-shadow");
 // }
 
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+
 $(window).on('unload', function() {
     $("html, body").animate({scrollTop: 0}, 700);
    });
