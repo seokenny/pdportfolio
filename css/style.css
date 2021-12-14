@@ -338,6 +338,12 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 4px;
 }
 
+.nav_li a:hover {
+  border-bottom: 1px solid black;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
 @media only screen and (min-width: 500px) {
   #container .nav {
     width: 483px;
